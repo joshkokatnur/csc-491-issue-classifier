@@ -11,10 +11,6 @@ from utils import set_random_seed, CustomTextDataset, loss_fn, create_modified_d
 from models import BERTClass
 from evaluate import evaluate_model
 
-import nltk
-nltk.download('nps_chat')
-nltk.download('punkt')
-
 def train(args):
     train_df = pd.read_csv(args.DATASET_DIR + args.EMB_MODEL_CHECKPOINT_NAME + "_train" + args.DATASET_SUFFIX + ".split.csv")
     train_dataset = CustomTextDataset(train_df)
