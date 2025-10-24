@@ -28,11 +28,15 @@ method and achieves an 𝐹1 score of 0.8653 (Approx 5% increase).
 
 1. Install requirements with
 ```setup
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 2. Download data using the Bash script `data/get_data.sh`
 ```
 cd data && ./get_data.sh
+```
+3. Dataset split
+```
+python src/data_split.py
 ```
 
 ## Training
