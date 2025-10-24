@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/joshkokatnur/csc-491-issue-classifier.git
-cd csc-491-issue-classifier/
 wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 bash ./Miniconda3-latest-Linux-x86_64.sh -b -p ~/miniconda3
