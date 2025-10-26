@@ -121,5 +121,6 @@ dependencies:
     - shortuuid==1.0.8
     - smmap==5.0.0
     - termcolor==1.1.0
+    - wandb==0.12.10
     - yaspin==2.1.0
 prefix: /raid/home/tusharpk/miniconda3
