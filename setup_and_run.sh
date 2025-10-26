@@ -10,6 +10,7 @@ source ~/.bashrc
 ~/miniconda3/bin/conda env create -f environment.yaml
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate issue-classifier
+wandb login
 python src/nltk_downloads.py
 cd data
 chmod +x get_data.sh
